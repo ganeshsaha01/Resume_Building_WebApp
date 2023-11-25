@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+#name {
+    color: #3498db;
+    font-size: 30px;
+}
+
+#fill_abouts {
+    position: relative;
+    top:10px;
+    color: #555;
+    font-size: 16px;
+}
+
+.personal-info_container{
+    margin-top: 21px;
+}
+.skill_container,
+.education_container,
+.experience_container {
+    margin-top: 10px;
+}
+
+.personal-info_container,
+.skill_container,
+.education_container,
+.experience_container {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#personal_info_heading,
+#skill_head,
+#edu_head,
+#experience_head {
+    color: #3498db;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#email,
+#Phone,
+#adress,
+#fill_skill,
+#fill_edu_most_recent,
+#fill_edu_scnd_recent,
+#fill_exprnc_most_recent_tittle,
+#fill_exprnc_scnd_recent_tittle
+ {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+#fill_details_1,
+#fill_details_2
+{
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+
+#fill_email,
+#fill_phone,
+#fill_adress {
+   
+    font-size: 16px;
+    color: #555;
+    position: relative;
+    top: 6px;
+}
+
+#fill_skill {
+    white-space: pre;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+}

@@ -1,0 +1,115 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#name {
+    font-size: 48px;
+    color: rgb(75, 88, 230);
+    font-weight: bold;
+}
+
+#fill_abouts {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.personal-info_container {
+    border-top: 2px solid #e51da2;;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+#personal_info_heading {
+    font-size: 28px;
+    color:rgb(88, 100, 235);
+    font-weight: bold;
+}
+
+#email, #Phone, #adress {
+    font-weight: bold;
+    font-size: 16px;
+    color: #373737;
+    margin-top: 15px;
+}
+
+#fill_email, #fill_phone, #fill_adress {
+    font-size: 19px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.skill_container {
+    border-top: 2px solid #e51da2;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+#skill_head {
+    font-size: 28px;
+    color: rgb(88, 100, 235);
+    font-weight: bold;
+}
+
+#fill_skill {
+    font-size: 19px;
+    color: #555;
+    line-height: 1.2;
+}
+
+.education_container {
+    border-top: 2px solid #e51da2;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+#edu_head {
+    font-size: 28px;
+    color: rgb(88, 100, 235);
+    font-weight: bold;
+}
+
+#fill_edu_most_recent, #fill_edu_scnd_recent {
+    font-size: 19px;
+    color: #404040;
+    margin-top: 15px;
+}
+
+.experience_container {
+    border-top: 2px solid #e51da2;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+#experience_head {
+    font-size: 28px;
+    color:rgb(88, 100, 235);
+    font-weight: bold;
+}
+
+#fill_exprnc_most_recent_tittle, #fill_exprnc_scnd_recent_tittle {
+    font-size: 24px;
+    color: #555;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#fill_details_1, #fill_details_2 {
+    font-size: 18px;
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}

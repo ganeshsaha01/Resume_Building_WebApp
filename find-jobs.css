@@ -1,0 +1,67 @@
+body{
+    background-image: url(Required_elements/Job_Finder_\(bg\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    background-color: white;
+    min-width:630px;
+    max-width:630px;
+    min-height:300px;
+    max-height:300px;
+    position: absolute;
+    left:30%;
+    top:80px;
+    border-radius: 30px;
+    box-shadow: 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+#msg1{
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    color:blueviolet;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 29px;
+}
+#loading {
+    min-height: 40px;
+    max-height: 40px;
+    position: relative;
+    left: 45%;
+    top:30px;
+    opacity: 0; 
+    animation: fadeInOut 4s ease-in-out ; 
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0; 
+    }
+    50% {
+        opacity: 1; 
+    }
+}
+
+#viewJobsBtn{
+    color:blueviolet;
+    position: relative;
+    left: 23%;
+    top:20px;
+    font-family:"Comic Sans MS";
+    font-size: 25px;
+    background-color: rgb(221, 220, 220);
+    border:2px solid blueviolet;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#viewJobsBtn:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+    border-color: white;
+}
+
+

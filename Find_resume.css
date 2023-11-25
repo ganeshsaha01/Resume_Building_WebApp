@@ -1,0 +1,59 @@
+body{
+    background-image: url("Required_elements/Find_resume_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*{
+    font-family:'Roboto', sans-serif;
+}
+.container{
+    background-color: rgb(255,255,255,0.3);
+    border:3px solid white;
+    min-width:920px;
+    min-height:400px;
+    position: absolute;
+    top:24%;
+    left:22%;
+    border-radius: 20px;
+}
+#msg1{
+    font-size: 40px;
+    position: absolute;
+    top: 12%;
+    left:32%;
+    color:white;
+}
+
+#type_area{
+    min-width:710px;
+    min-height: 50px;
+    position: absolute;
+    top:50%;
+    left:10%;
+    border-radius: 25px;
+    font-size: 25px;
+    font-family: "Bahnschrift";
+    border:2px solid white;
+    outline-style: none;
+    background-color: rgb(255,255,255,0.5);
+    color:rgb(78, 77, 77);
+    
+}
+#btn{
+    font-size: 20px;
+    min-height: 40px;
+    position: absolute;
+    top:52%;
+    left:73%;
+    background-color:rgb(255,6,60);
+    border:3px solid white;
+    color:white;
+    border-radius: 30px;
+}
+#btn:hover{
+    background-color: white;
+    color:rgb(255,6,60);
+    border:2px solid rgb(255,6,60);
+}
+
+

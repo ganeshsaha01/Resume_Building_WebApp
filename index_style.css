@@ -1,0 +1,132 @@
+body {
+    background-image: url("Required_elements/index_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+.user_box {
+    background-image: url("Required_elements/UserBox_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 36px;
+    position: absolute;
+    top: 26%;
+    right: 47%;
+    min-height: 330px;
+    max-height: 330px;
+    min-width: 550px;
+    max-width: 550px;
+    transform: scale(0); 
+    animation: zoomIn 1.5s forwards;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0); 
+    }
+    to {
+        transform: scale(1); 
+    }
+}
+
+
+
+#find_btn{
+    font-size: 19px;
+    color:#1d7dcc;
+    background-color: white;
+    border-color: white;
+    outline-color: white;
+    border-radius: 35px;
+    box-shadow: 0 8px 16px 0 rgba(54, 73, 245, 0.2), 0 6px 20px 0 rgba(54, 73, 245,0.19);
+    padding-left: 65px;
+    padding-right:65px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top:25%;
+    left:6%;
+}
+#find_btn:hover {
+    background-color: #1a91f4;
+    color: white;
+    border-color: #1a91f4;
+    outline-color: #1a91f4;
+}
+
+#crtcv_btn{
+    font-size: 19px;
+    color:#1d7dcc;
+    background-color: white;
+    border-color: white;
+    outline-color: white;
+    border-radius: 35px;
+    box-shadow: 0 8px 16px 0 rgba(241, 27, 245,0.2), 0 6px 20px 0 rgba(241, 27, 245,0.19);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top:48%;
+    left:6%;
+}
+#crtcv_btn:hover {
+    background-color: #f41aab;
+    color: white;
+    border-color: #f41aab;
+    outline-color: #f41aab;
+}
+
+#msg1 {
+    font-weight: bold;
+    font-size: 40px;
+    font-style: italic;
+    font-family: "Comic Sans MS";
+    color: white;
+    position: absolute;
+    top: 76%;
+    left: 30%;
+    transform: translateX(100%); 
+    animation: slideInRight 1.5s forwards;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%); 
+    }
+    to {
+        transform: translateX(0); 
+    }
+}
+
+
+
+
+
+#msg2 {
+    font-weight: bold;
+    font-size: 40px;
+    font-style: italic;
+    font-family: "Comic Sans MS";
+    color: white;
+    position: absolute;
+    top: 84%;
+    left: 47%;
+    transform: translateX(-100%); 
+    animation: slideInRight 1.5s forwards;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(1-00%); 
+    }
+    to {
+        transform: translateX(0); 
+    }
+}
+
+
+

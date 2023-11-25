@@ -1,0 +1,95 @@
+/* Global styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 230, 230);
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color:white;
+}
+
+/* Heading styles */
+
+#name {
+    font-family: 'Courier New', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(0,32,96);
+    margin-bottom: 20px;
+    margin-left: 30%;
+}
+
+
+#personal_info_heading,
+#edu_head,#skill_head,
+#experience_head {
+    color: #960d0d;
+    font-family: 'Courier New', cursive;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Content styles */
+
+#fill_abouts {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.personal-info_container,
+.skill_container,
+.education_container,
+.experience_container {
+    border: 2px solid rgb(0,32,96);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+#email,
+#Phone,
+#adress {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#fill_email,
+#fill_phone,
+#fill_adress,
+#fill_skill {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+#fill_edu_most_recent,
+#fill_edu_scnd_recent,
+#fill_exprnc_most_recent_tittle,
+#fill_exprnc_scnd_recent_tittle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#fill_details_1,
+#fill_details_2 {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #777;
+    margin-bottom: 10px;
+}
